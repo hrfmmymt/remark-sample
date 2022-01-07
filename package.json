@@ -2,19 +2,20 @@
   "name": "remark-sample",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node index.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "fs": "^0.0.1-security",
+    "@types/node": "^17.0.8",
     "rehype-sanitize": "^5.0.1",
     "rehype-stringify": "^9.0.2",
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
+    "typescript": "^4.5.0-beta",
     "unified": "^10.1.1"
   }
 }
